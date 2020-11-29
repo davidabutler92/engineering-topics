@@ -7,6 +7,7 @@ export default class HomePage extends Component {
         return (
             <div className='home-page'>
                 <h1>Home Page: Engineering Topics</h1>
+                <p>The links below talk about engineering topics each of which are a blog post describing what the topic is about. </p>
                 <ul>
                     <Link to='/quantity'><li>Quantity Always Trumps Quality</li></Link>
                     <Link to='/cleanCode'><li>Clean Code: Chapter 1</li></Link>

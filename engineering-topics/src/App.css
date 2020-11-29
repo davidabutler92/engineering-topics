@@ -46,3 +46,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+p {
+  width: 40vw;
+}
