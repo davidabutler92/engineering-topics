@@ -1,25 +1,41 @@
-import logo from './logo.svg';
+import React, { Component } from 'react'
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+} from "react-router-dom";
+import HomePage from './HomePage';
+import Quantity from './Quantity';
+import CleanCode from './CleanCode';
+import Refactor from './Refactor';
+import TDD from './TDD'
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  
+  render() {
+    return (
+      <div className='mainHeader'>
+        <Router>
+          <Switch>
+            <Route exact path='/' render={(routerProps) => <HomePage
+              {...routerProps} />}
+            />
+            <Route exact path='/quantity' render={(routerProps) => <Quantity
+              {...routerProps} />}
+            />
+            <Route exact path='/cleanCode' render={(routerProps) => <CleanCode
+              {...routerProps} />}
+            />
+            <Route exact path='/refactor' render={(routerProps) => <Refactor
+              {...routerProps} />}
+            />
+            <Route exact path='/TDD' render={(routerProps) => <TDD
+              {...routerProps} />}
+            />
+          </Switch>
+        </Router>
+      </div>
+    )
+  }
 }
-
-export default App;
