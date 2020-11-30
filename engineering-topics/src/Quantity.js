@@ -19,7 +19,10 @@ export default class HomePage extends Component {
                     Like with coding, it is better to produce more projects, make more mistakes and learn from them.
                     This to me personally is a great way to grow.
                 </p>
-                <Link to='/'>Home page</Link>
+                <Link 
+                    className='link'
+                    to='/'>Home page
+                    </Link>
             </div>
         )
     }

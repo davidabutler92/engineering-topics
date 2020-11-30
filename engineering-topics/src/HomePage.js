@@ -9,10 +9,18 @@ export default class HomePage extends Component {
                 <h1>Home Page: Engineering Topics</h1>
                 <p>The links below talk about engineering topics each of which are a blog post describing what the topic is about. </p>
                 <ul>
-                    <Link to='/quantity'><li>Quantity Always Trumps Quality</li></Link>
-                    <Link to='/cleanCode'><li>Clean Code: Chapter 1</li></Link>
-                    <Link to='/refactor'><li>TDD red-green-refactor</li></Link>
-                    <Link to='/TDD'><li>Cycles of TDD</li></Link>
+                    <Link 
+                    className='link'
+                    to='/quantity'><li>Quantity Always Trumps Quality</li></Link>
+                    <Link 
+                        className='link'
+                        to='/cleanCode'><li>Clean Code: Chapter 1</li></Link>
+                    <Link 
+                        className='link'
+                        to='/refactor'><li>TDD red-green-refactor</li></Link>
+                    <Link 
+                        className='link'
+                        to='/TDD'><li>Cycles of TDD</li></Link>
                 </ul>
             </div>
         )

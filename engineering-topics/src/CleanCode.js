@@ -30,7 +30,9 @@ export default class CleanCode extends Component {
                         It really can be an art and it does take a lot of practice BUT in the long run it saves time for whoever works on your code.</p>
                 </div>
                 <img src={image} alt='clean vs bad code'/>Clean VS bad code
-                <Link to='/'>Home page</Link>
+                <div className='link'>
+                    <Link to='/'>Home page</Link>
+                </div>
             </div>
         )
     }

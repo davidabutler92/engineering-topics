@@ -60,3 +60,29 @@ p {
   font-style: italic;
   color: gray;
 }
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.lightblue {
+  color: rgb(87, 165, 190);
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+.refactorImage {
+  width: 40vw;
+  margin-top: 20px;
+  border-radius: 10px;
+}
