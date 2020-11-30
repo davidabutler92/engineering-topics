@@ -17,10 +17,7 @@ export default class HomePage extends Component {
                         to='/cleanCode'><li>Clean Code: Chapter 1</li></Link>
                     <Link 
                         className='link'
-                        to='/refactor'><li>TDD red-green-refactor</li></Link>
-                    <Link 
-                        className='link'
-                        to='/TDD'><li>Cycles of TDD</li></Link>
+                        to='/refactor'><li>TDD red-green-refactor/Cycles of TDD</li></Link>
                 </ul>
             </div>
         )

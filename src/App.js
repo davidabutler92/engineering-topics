@@ -8,7 +8,6 @@ import HomePage from './HomePage';
 import Quantity from './Quantity';
 import CleanCode from './CleanCode';
 import Refactor from './Refactor';
-import TDD from './TDD'
 import './App.css';
 
 export default class App extends Component {
@@ -28,9 +27,6 @@ export default class App extends Component {
               {...routerProps} />}
             />
             <Route exact path='/refactor' render={(routerProps) => <Refactor
-              {...routerProps} />}
-            />
-            <Route exact path='/TDD' render={(routerProps) => <TDD
               {...routerProps} />}
             />
           </Switch>

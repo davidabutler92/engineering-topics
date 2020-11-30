@@ -1,49 +1,70 @@
-# Code-Challenge-01-JS-Fundamentals
+# Getting Started with Create React App
 
-## Objects
-An object is a list of properties that have keys and values. 
-### Basics 
-![](./screenshots/test1.png)
-### Computed Properties 
-![](./screenshots/test2.png)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Classes
-You can use classes as a template to make objects. Classes are built on protoypes. Classes like functions and can be define function expressions and function declarations.
-### Creation
-![](./screenshots/test3.png)
-### Statics
-![](./screenshots/test4.png)
-### Extends
-![](./screenshots/test5.png)
+## Available Scripts
 
-## Destructuring
-Desctructuring objects allows you to access the properties as variables
-### Array Destructuring
-![](./screenshots/test6.png)
-### String Destructuring
-![](./screenshots/test7.png)
-### Object Destructuring
-![](./screenshots/test8.png)
-## Destructuring With Defaults
-![](./screenshots/test9.png)
-### Destructuring Function Parameters
-![](./screenshots/test10.png)
-### Destructuring with Alias
-![](./screenshots/test11.png)
+In the project directory, you can run:
 
-## Rest
-Rest stands for REpresentational State Transfer and a rest server provides access to resources and a rest client accesses resources using HTTP.
-### Rest as a Parameter
-![](./screenshots/test12.png)
-### Rest While Destructuring
-![](./screenshots/test13.png)
+### `npm start`
 
-## Spread
-Spread operator allows an iterable to expand in places where 0+ arguments are expected 
-### Array Spread
-![](./screenshots/test14.png)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Function Defaults 
-this allows functions to be used with default values if no value is passed or an undefined value is passed. 
-### Function Defaults
-![] (./screenshots/test15.png)
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
