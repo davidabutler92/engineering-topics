@@ -50,3 +50,13 @@ body {
 p {
   width: 40vw;
 }
+
+.clean-code-div {
+  /* width: 80vw; */
+  height: 100%;
+}
+
+.italics {
+  font-style: italic;
+  color: gray;
+}
